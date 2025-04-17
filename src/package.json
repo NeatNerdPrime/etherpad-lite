@@ -83,7 +83,7 @@
     "etherpad-lite": "node/server.ts"
   },
   "devDependencies": {
-    "@playwright/test": "^1.51.1",
+    "@playwright/test": "^1.52.0",
     "@types/async": "^3.2.24",
     "@types/express": "^4.17.21",
     "@types/formidable": "^3.4.5",
@@ -94,7 +94,7 @@
     "@types/jsonwebtoken": "^9.0.9",
     "@types/mime-types": "^2.1.4",
     "@types/mocha": "^10.0.9",
-    "@types/node": "^22.13.14",
+    "@types/node": "^22.14.1",
     "@types/oidc-provider": "^8.8.1",
     "@types/semver": "^7.7.0",
     "@types/sinon": "^17.0.3",
