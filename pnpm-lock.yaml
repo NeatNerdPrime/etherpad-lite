@@ -308,8 +308,8 @@ importers:
         specifier: 9.13.3
         version: 9.13.3(supports-color@8.1.1)
       openapi-backend:
-        specifier: ^5.23.0
-        version: 5.23.0(@types/json-schema@7.0.15)
+        specifier: ^5.24.0
+        version: 5.24.0(@types/json-schema@7.0.15)
       pdfkit:
         specifier: ^0.20.2
         version: 0.20.2
@@ -514,8 +514,8 @@ packages:
     resolution: {integrity: sha512-rEoeK/qBZCLzqt9a3Q3Dnb5TUyXnZlxVaWr9ZXBV65Ppzcz59dx3Ik5YUxtni+36CtZgJdhQaYkLgHBdqjxjoA==}
     engines: {node: '>=7.0.0'}
 
-  '@apidevtools/json-schema-ref-parser@16.0.5':
-    resolution: {integrity: sha512-z3LiEMqTP2FNu6u8bdUgBYErVuwMSZReOJy1MCEIB0BDHMoNgBtkciby32HOlcrfWwrOSzRU8YIsZ0CogYRuYQ==}
+  '@apidevtools/json-schema-ref-parser@16.0.8':
+    resolution: {integrity: sha512-I/VwYjPV/OTQegEhO+ITP2cFUChohqMJ6pNSXx2Q2dLCbGGa5WWT1ATCFhjseapSCcfcFxk04Bg07dgwSs+Pxw==}
     engines: {node: '>=22.19.0'}
     peerDependencies:
       '@types/json-schema': ^7.0.15
@@ -4501,8 +4501,8 @@ packages:
     resolution: {integrity: sha512-YgBpdJHPyQ2UE5x+hlSXcnejzAvD0b22U2OuAP+8OnlJT+PjWPxtgmGqKKc+RgTM63U9gN0YzrYc71R2WT/hTA==}
     engines: {node: '>=18'}
 
-  openapi-backend@5.23.0:
-    resolution: {integrity: sha512-rZVa+BtfcYSM+z74r/LfubdVhknTqdrIx0Z4Ct+2grnF59chgSwNQWdhfb1RwBFouCXvhNdipnuxQR1N1ce2OA==}
+  openapi-backend@5.24.0:
+    resolution: {integrity: sha512-TqkkzZA+uIYgatpmswI+p7aG/67ZlUXCOTQY6TwZWjxKbrWxHceKgLnoix96zH92WyloQRYVWSU40lIGQJBqYg==}
     engines: {node: '>=20.0.0'}
 
   openapi-fetch@0.17.0:
@@ -5920,7 +5920,7 @@ snapshots:
       chunk-array: 1.0.2
       enforce-range: 1.0.0
 
-  '@apidevtools/json-schema-ref-parser@16.0.5(@types/json-schema@7.0.15)':
+  '@apidevtools/json-schema-ref-parser@16.0.8(@types/json-schema@7.0.15)':
     dependencies:
       '@types/json-schema': 7.0.15
       js-yaml: 5.5.0
@@ -10118,9 +10118,9 @@ snapshots:
       is-inside-container: 1.0.0
       wsl-utils: 0.1.0
 
-  openapi-backend@5.23.0(@types/json-schema@7.0.15):
+  openapi-backend@5.24.0(@types/json-schema@7.0.15):
     dependencies:
-      '@apidevtools/json-schema-ref-parser': 16.0.5(@types/json-schema@7.0.15)
+      '@apidevtools/json-schema-ref-parser': 16.0.8(@types/json-schema@7.0.15)
       ajv: 8.20.0
       bath-es5: 3.0.3
       cookie: 1.1.1
